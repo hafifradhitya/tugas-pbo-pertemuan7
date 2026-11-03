@@ -46,38 +46,31 @@ flowchart TD
 ### Pemetaan Konsep OOP M5 → Laravel P7
 
 ```mermaid
-classDiagram
-    class `routes/web.php` {
-        +GET /jadwal → index()
-        +GET /jadwal/{id} → show()
-    }
+flowchart LR
+    subgraph Route["routes/web.php"]
+        R1["GET /jadwal"]
+        R2["GET /jadwal/:id"]
+    end
 
-    class JadwalController {
-        +index() view jadwal.index
-        +show(id) view jadwal.show
-        -$daftarJadwal array
-        -$semuaJadwal array
-    }
+    subgraph Controller["JadwalController.php"]
+        C1["index() : Rekapitulasi & Composition"]
+        C2["show(:id) : Pencarian & Filter Data"]
+    end
 
-    class `jadwal/index.blade.php` {
-        +@foreach $daftarJadwal
-        +@if tipe === Teori
-        +@elseif tipe === Praktikum
-        +@elseif tipe === Daring
-        +route jadwal.show id
-    }
+    subgraph ViewIndex["jadwal/index.blade.php"]
+        V1["@foreach $daftarJadwal"]
+        V2["@if tipe (Polymorphism Badge)"]
+    end
 
-    class `jadwal/show.blade.php` {
-        +@if $jadwal !== null
-        +@if tipe === Teori
-        +@if status_ruang
-        +@else Tidak Ditemukan
-        +route jadwal.index
-    }
+    subgraph ViewShow["jadwal/show.blade.php"]
+        S1["@if $jadwal !== null"]
+        S2["Validasi Kesiapan Ruang"]
+    end
 
-    `routes/web.php` --> JadwalController : mengarahkan request
-    JadwalController --> `jadwal/index.blade.php` : compact daftarJadwal
-    JadwalController --> `jadwal/show.blade.php` : compact jadwal id
+    R1 --> C1
+    R2 --> C2
+    C1 -->|compact daftarJadwal| ViewIndex
+    C2 -->|compact jadwal| ViewShow
 ```
 
 ---
