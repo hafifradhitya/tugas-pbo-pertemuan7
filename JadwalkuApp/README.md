@@ -209,7 +209,28 @@ Buka browser dan akses:
 
 ---
 
-## 8. Refleksi Pembelajaran (RPS Pertemuan 7)
+## 8. Dokumentasi Video Demo & Refleksi Pembelajaran
+
+### A. Video Demonstrasi Program
+
+Video demonstrasi penjelasan alur kode dan eksekusi program telah diunggah langsung ke dalam repositori:
+
+<p align="center">
+  <a href="demonstrasi-video/video-demonstrasi.mp4">
+    <img src="images-output/tampilan-tabeljadwalperkuliahan.png" alt="Tonton Video Demonstrasi" width="800"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="demonstrasi-video/video-demonstrasi.mp4">
+    <img src="https://img.shields.io/badge/▶%EF%B8%8F_Klik_Disini_Untuk_Putar_Video_Demonstrasi-video--demonstrasi.mp4-red?style=for-the-badge" alt="Putar Video Demonstrasi"/>
+  </a>
+</p>
+
+> 📹 **Berkas Video:** [`demonstrasi-video/video-demonstrasi.mp4`](demonstrasi-video/video-demonstrasi.mp4)  
+> *(Klik banner gambar atau tombol di atas untuk memutar video demonstrasi secara langsung di GitHub).*
+
+### B. Refleksi Pembelajaran (RPS Pertemuan 7)
 
 1. **OOP sebagai Fondasi MVC:**  
    Pelajaran terpenting dari pertemuan ini adalah memahami bahwa pola MVC Laravel bukan konsep baru, melainkan formalisasi dari prinsip OOP yang sudah dipelajari. Controller menjalankan peran yang sama dengan class pengelola di M5, hanya saja kini terhubung ke HTTP request alih-alih dipanggil langsung dari skrip.
