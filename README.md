@@ -213,22 +213,22 @@ Buka browser dan akses:
 
 ### A. Video Demonstrasi Program
 
-Video demonstrasi penjelasan alur kode dan eksekusi program telah diunggah langsung ke dalam repositori:
+Video demonstrasi penjelasan alur kode dan eksekusi program dapat disaksikan melalui YouTube:
 
 <p align="center">
-  <a href="demonstrasi-video/video-demonstrasi.mp4">
+  <a href="https://www.youtube.com/watch?v=UGZLDiMTM-Q" target="_blank">
     <img src="images-output/tampilan-tabeljadwalperkuliahan.png" alt="Tonton Video Demonstrasi" width="800"/>
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=UGZLDiMTM-Q" target="_blank">
-    <img src="https://img.youtube.com/vi/UGZLDiMTM-Q/maxresdefault.jpg" width="650" alt="Video Demonstrasi di YouTube"/>
+    <img src="https://img.shields.io/badge/▶%EF%B8%8F_Tonton_Video_Demonstrasi-YouTube-red?style=for-the-badge&logo=youtube" alt="Putar Video Demonstrasi di YouTube"/>
   </a>
 </p>
 
-> 📹 **Berkas Video:** [`demonstrasi-video/video-demonstrasi.mp4`](demonstrasi-video/video-demonstrasi.mp4)  
-> *(Klik banner gambar atau tombol di atas untuk memutar video demonstrasi secara langsung di GitHub).*
+> 📹 **Tonton di YouTube:** [https://youtu.be/UGZLDiMTM-Q](https://youtu.be/UGZLDiMTM-Q)  
+> *(Klik banner gambar atau tombol di atas untuk membuka dan memutar video demonstrasi di YouTube).*
 
 ### B. Refleksi Pembelajaran (RPS Pertemuan 7)
 
