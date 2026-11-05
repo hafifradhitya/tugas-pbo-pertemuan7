@@ -222,8 +222,8 @@ Video demonstrasi penjelasan alur kode dan eksekusi program telah diunggah langs
 </p>
 
 <p align="center">
-  <a href="demonstrasi-video/video-demonstrasi.mp4">
-    <img src="https://img.shields.io/badge/▶%EF%B8%8F_Klik_Disini_Untuk_Putar_Video_Demonstrasi-video--demonstrasi.mp4-red?style=for-the-badge" alt="Putar Video Demonstrasi"/>
+  <a href="https://www.youtube.com/watch?v=UGZLDiMTM-Q" target="_blank">
+    <img src="https://img.youtube.com/vi/UGZLDiMTM-Q/maxresdefault.jpg" width="650" alt="Video Demonstrasi di YouTube"/>
   </a>
 </p>
 
